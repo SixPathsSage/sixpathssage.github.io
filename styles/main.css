@@ -89,11 +89,12 @@ body{
 }
 
 .timeline{
-	width: 60%;
+	width: 65%;
 	display: inline-block;
+	float: left;
 }
 
-.timeline-title{
+.title{
 	font-size: 18px;
 	color: #333;
 	margin: 10px auto;
@@ -103,7 +104,7 @@ body{
 	border-bottom: 1px solid #fff;
 }
 
-.timeline-title::after{
+.title::after{
 	content: '';
     width: 50px;
     height: 1px;
@@ -139,4 +140,40 @@ body{
 	margin : 10px auto;
 	color: #565656;
 	font-size: 13px;
+}
+
+.timeline-unit-description{
+	font-size: 12px;
+	color: #666;
+}
+
+/*Skills*/
+.skills{
+	width: 30%;
+	display: inline-block;
+	float: right;
+}
+
+.skills-name{
+	font-size: 15px;
+}
+
+.ratings{
+	height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    margin: auto 5px;
+}
+
+.ratings-enabled{
+	height: 20px;
+    width: 20px;
+    background-color: #4c4c4c;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    margin: auto 5px;
 }
