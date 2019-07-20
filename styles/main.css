@@ -6,7 +6,7 @@ body{
 
 .container{
 	background-color:  #fff;
-	margin: 10px 14%;
+	margin: 10px 13%;
 }
 /* Header */
 .header{
@@ -32,7 +32,7 @@ body{
 }
 
 .box{
-	width: 35%;
+	width: 50%;/*35%;*/
 	height: 150px;
 	margin: 25px 20px;
 	display: inline-block;
@@ -44,6 +44,7 @@ body{
 	height: 150px;
 	margin: 20px;
 	display: inline-block;
+	float: right;
 }
 
 .profile-container{
@@ -89,7 +90,7 @@ body{
 
 /* Body */
 .content{
-	margin: 0px auto;
+	margin: 10px auto;
 	width: 95%;
 	overflow: hidden;
 }
