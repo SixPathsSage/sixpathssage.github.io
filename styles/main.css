@@ -165,8 +165,8 @@ body{
 }
 
 .ratings{
-	height: 15px;
-    width: 15px;
+	height: 13px;
+    width: 13px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -175,8 +175,8 @@ body{
 }
 
 .ratings-enabled{
-	height: 15px;
-    width: 15px;
+	height: 13px;
+    width: 13px;
     background-color: #4c4c4c;
     border-radius: 50%;
     display: inline-block;
