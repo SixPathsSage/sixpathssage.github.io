@@ -6,7 +6,7 @@ body{
 
 .container{
 	background-color:  #fff;
-	margin: 10px 14%;
+	margin: 10px 13%;
 }
 /* Header */
 .header{
@@ -32,7 +32,7 @@ body{
 }
 
 .box{
-	width: 35%;
+	width: 50%;/*35%;*/
 	height: 150px;
 	margin: 25px 20px;
 	display: inline-block;
@@ -42,8 +42,10 @@ body{
 .box-right{
 	width: 33%;
 	height: 150px;
-	margin: 20px;
+	margin-left: 25px;
+	margin-top: 20px;
 	display: inline-block;
+	float: right;
 }
 
 .profile-container{
@@ -89,7 +91,7 @@ body{
 
 /* Body */
 .content{
-	margin: 0px auto;
+	margin: 10px auto;
 	width: 95%;
 	overflow: hidden;
 }
@@ -165,8 +167,8 @@ body{
 }
 
 .ratings{
-	height: 13px;
-    width: 13px;
+	height: 15px;
+    width: 15px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -175,8 +177,8 @@ body{
 }
 
 .ratings-enabled{
-	height: 13px;
-    width: 13px;
+	height: 15px;
+    width: 15px;
     background-color: #4c4c4c;
     border-radius: 50%;
     display: inline-block;
