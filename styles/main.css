@@ -1,16 +1,16 @@
 body{
 	font-family:'open Sans',Arial;
 	background-color: #e6e6e6;
-	margin: 10px auto;
+	margin: 0px;
 }
 
 .container{
 	background-color:  #fff;
-	margin: 10px 13%;
+	margin: 0px 5%;
 }
 /* Header */
 .header{
-	background-color: #267390; /*#043548*/
+	background-color: #323638; /*#043548*/
 	height: 200px;
 }
 
