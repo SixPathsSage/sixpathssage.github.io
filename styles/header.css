@@ -1,0 +1,42 @@
+.header {
+    background-color: #272727;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-left {
+    padding: 0px 20px;
+    flex: 2;
+}
+
+.box-right {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.info-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-title {
+    width: 70px;
+}
+
+.info-description {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
