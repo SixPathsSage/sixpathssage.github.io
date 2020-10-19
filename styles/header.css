@@ -1,0 +1,63 @@
+.header {
+    background-color: #272727;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.designation {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.summary {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.box-left {
+    padding: 0px 20px;
+    flex: 2;
+}
+
+.box-right {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 20em;
+}
+
+.info-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-title {
+    width: 70px;
+}
+
+.info-description {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1040px) {
+    
+  }
